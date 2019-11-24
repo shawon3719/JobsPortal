@@ -1,0 +1,125 @@
+/*
+*Override CSS's
+*/
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 5rem;
+    background: #d6d6d6;
+}
+.navbar navbar-expand-lg navbar-dark{
+    background: rgba(0, 20, 61, 0.91);
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.feature-img{
+    max-height: 200px;
+}
+.footer-bottom{
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    background: rgba(39, 46, 53, 0.91);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.footer-bottom p{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background: #FFF;
+    border-radius: 10px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+    background: #FFF;
+    border-radius: 10px;
+}
+.search-icon-button {
+    background: #FDD922;
+    border: 1px solid #FDD922;
+    transition: .4s;
+}
+.search-icon-button:hover {
+    background: #cbb700;
+    border: 1px solid #cbb700;
+    color: #FFF;
+}
+.btn-cart-nav{
+
+}
+.btn-cart-nav:hover{
+    background: inherit!important;
+}
+.product-item{
+    background: #c7dfff;
+}
+.child-rows{
+    padding-left: 20px;
+    border-left: 1px solid blanchedalmond;
+    background: #FFF;
+}
+.child-rows a.list-group-item{
+    border-left: 0px!important;
+}
+.list-group-item.active{
+    z-index: 2;
+    color: #fff;
+    background-color: #02aadd;
+    border-color: #02aadd;
+    border-radius: 0px!important;
+}
+.mr-auto, .mx-auto{
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+.down{
+    padding-bottom: 100px;
+}
+.pointer{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.carousel-indicators li{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 70px;
+    background-color: #000000;
+}
+.carousel-item h3{
+    font-style: inherit;
+    color: white;
+    display: inline-block;
+    background: #ffb70d;
+    padding:0 5px 5px 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000000;
+    outline: dashed #000000;
+}
+.navbar-brand img{
+    width: 140px;
+}
+.custom-head{
+    font-style: inherit;
+
+}
